@@ -10,6 +10,8 @@ google.generativeai: To interact with Google's Generative AI API.
 Load API Key: It loads the Google Cloud API key from the environment variable GOOGLE_API_KEY. This key is essential for authenticating with the Generative AI API.
 Configure API: It configures the google.generativeai library using the loaded API key.
 Initialize Gemini Pro Model: It creates an instance of the gemini-pro model from the google.generativeai library.
+
+
 2. Chat Function:
 
 get_gemini_response(question): This function takes a user's question as input and interacts with the Gemini Pro model to get a response.
