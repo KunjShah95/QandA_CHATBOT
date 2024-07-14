@@ -18,6 +18,8 @@ get_gemini_response(question): This function takes a user's question as input an
 It starts a chat session with the model using model.start_chat(history=[]).
 It sends the question to the chat session using chat.send_message(question, stream=True).
 It returns the response from the model, which is streamed in chunks.
+
+
 3. Streamlit App:
 
 Page Configuration: It sets the page title to "Q&A Demo" using st.set_page_config().
